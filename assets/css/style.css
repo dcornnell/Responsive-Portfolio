@@ -158,3 +158,24 @@ img {
     float: left;
     margin: 0px 10px 10px 0px;
 }
+
+@media screen and (max-width: 640px) {
+    h1 {
+        width: 100%;
+        display: block;
+        margin: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+    nav {
+        position: static;
+        padding: 60px 0px 10px 0px;
+        text-align: center;
+    }
+    img {
+        width: 100%;
+    }
+    p {
+        margin: 20px auto;
+    }
+}
