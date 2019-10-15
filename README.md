@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-working with media querries
+# Basic-Portrfolio
+working with Responsiveness and media queries

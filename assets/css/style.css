@@ -1,0 +1,160 @@
+body {
+    background-image: url("../images/craft-paper.jpg");
+    background-color: antiquewhite;
+    color: gray;
+    font-family: arial;
+}
+
+a:link {
+    text-decoration: none;
+    color: grey
+}
+
+a:visited {
+    text-emphasis: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+hr {
+    margin: 0px 0px 20px;
+}
+
+h1 {
+    background-color: gray;
+    float: left;
+    color: white;
+    padding: 20px;
+    margin: 0px 0px 0px 9%;
+    font-size: 1.8em;
+    0px 0px 0px 9%
+}
+
+h2 {
+    font-size: 1.6em;
+    padding: 15px 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 5px 0px;
+    font-size: 1.1em;
+}
+
+p {
+    line-height: 175%
+}
+
+header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+    overflow: auto;
+    background-color: white;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 5px solid darkgrey;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    z-index: 2;
+}
+
+.container {
+    width: 80%;
+    margin: auto auto 50px auto;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+.image_display {
+    width: 65%;
+}
+
+.image_holder {
+    width: 33%;
+    float: left;
+    margin: 10px 20px 5px 0px;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 108px;
+    background-color: darkgray;
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.caption:hover {
+    background-color: black;
+}
+
+.border {
+    border: 1px solid lightgrey;
+}
+
+nav {
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    color: grey;
+}
+
+.copyright {
+    padding: 15px;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+}
+
+input {
+    width: 75%
+}
+
+.text {
+    width: 98%;
+    margin: 0px 0px 5px 0px;
+}
+
+.textarea {
+    width: 98%;
+    margin-right: 20px;
+    padding: 0px 0px 10em 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+.button {
+    background: none;
+    border: none;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: grey;
+    margin: 10px 0px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+img {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
