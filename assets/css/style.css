@@ -69,8 +69,9 @@ footer {
 }
 
 .container {
-    width: 80%;
-    margin: auto auto 50px auto;
+    max-width: 980px;
+    margin-left: 9%;
+    margin-right: 10%;
     background-color: white;
     padding: 10px;
     overflow: auto;
@@ -159,7 +160,34 @@ img {
     margin: 0px 10px 10px 0px;
 }
 
+@media screen and (max-width: 980px) {
+    .container {
+        width: 80%;
+        margin: auto auto 50px auto;
+        background-color: white;
+        padding: 10px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin: auto auto 50px auto;
+        background-color: white;
+        padding: 10px;
+        overflow: auto;
+    }
+}
+
 @media screen and (max-width: 640px) {
+    .container {
+        width: 80%;
+        margin: auto auto 50px auto;
+        background-color: white;
+        padding: 10px;
+        overflow: auto;
+    }
     h1 {
         width: 100%;
         display: block;
@@ -174,8 +202,22 @@ img {
     }
     img {
         width: 100%;
+        float: none;
     }
     p {
         margin: 20px auto;
+    }
+    .image_display {
+        width: 99%;
+        margin: 5% auto;
+    }
+    .image_holder {
+        width: 100%;
+        margin: 0px;
+        float: none;
+    }
+    .caption {
+        width: 100%;
+        top: 75%;
     }
 }
